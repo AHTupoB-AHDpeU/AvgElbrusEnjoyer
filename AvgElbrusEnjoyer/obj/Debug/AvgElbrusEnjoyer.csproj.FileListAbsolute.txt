@@ -1,0 +1,11 @@
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\bin\Debug\SampleDatabase.mdf
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\bin\Debug\SampleDatabase_log.ldf
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\bin\Debug\AvgElbrusEnjoyer.exe.config
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\bin\Debug\AvgElbrusEnjoyer.exe
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\bin\Debug\AvgElbrusEnjoyer.pdb
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbrusEnjoyer.csproj.AssemblyReference.cache
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbrusEnjoyer.Properties.Resources.resources
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbrusEnjoyer.csproj.GenerateResource.cache
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbrusEnjoyer.csproj.CoreCompileInputs.cache
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbrusEnjoyer.exe
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbrusEnjoyer.pdb
