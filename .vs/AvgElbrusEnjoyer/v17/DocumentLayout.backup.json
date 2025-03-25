@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +15,16 @@
       "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\consoleapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -46,102 +42,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Finance.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Finance.cs",
-              "RelativeDocumentMoniker": "ConsoleApp\\Models\\Finance.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Finance.cs",
-              "RelativeToolTip": "ConsoleApp\\Models\\Finance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T18:25:11.589Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "ConsoleApp\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Client.cs",
-              "RelativeToolTip": "ConsoleApp\\Models\\Client.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T18:20:02.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
               "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Program.cs",
               "RelativeToolTip": "ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAewA8AAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T18:10:23.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Catalog.cs",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Catalog.cs",
               "RelativeDocumentMoniker": "ConsoleApp\\Models\\Catalog.cs",
               "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Catalog.cs",
               "RelativeToolTip": "ConsoleApp\\Models\\Catalog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T18:24:47.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Component.cs",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Component.cs",
               "RelativeDocumentMoniker": "ConsoleApp\\Models\\Component.cs",
               "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Component.cs",
               "RelativeToolTip": "ConsoleApp\\Models\\Component.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T18:22:39.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Order.cs",
               "RelativeDocumentMoniker": "ConsoleApp\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Order.cs",
               "RelativeToolTip": "ConsoleApp\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T18:20:12.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ConsoleApp\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\AppDbContext.cs",
-              "RelativeToolTip": "ConsoleApp\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Client.cs",
+              "RelativeToolTip": "ConsoleApp\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T18:16:32.238Z",
+              "WhenOpened": "2025-02-06T18:20:02.059Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "Finance.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Finance.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Models\\Finance.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Finance.cs",
+              "RelativeToolTip": "ConsoleApp\\Models\\Finance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T18:25:11.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ConsoleApp.csproj",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\ConsoleApp.csproj",
               "RelativeDocumentMoniker": "ConsoleApp\\ConsoleApp.csproj",
@@ -154,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\Form1.cs",
               "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\Form1.cs",

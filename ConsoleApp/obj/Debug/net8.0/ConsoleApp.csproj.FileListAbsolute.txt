@@ -150,3 +150,5 @@ C:\Users\antip\source\repos\AvgElbrusEnjoyer\ConsoleApp\obj\Debug\net8.0\refint\
 C:\Users\antip\source\repos\AvgElbrusEnjoyer\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
 C:\Users\antip\source\repos\AvgElbrusEnjoyer\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\antip\source\repos\AvgElbrusEnjoyer\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\ConsoleApp\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json

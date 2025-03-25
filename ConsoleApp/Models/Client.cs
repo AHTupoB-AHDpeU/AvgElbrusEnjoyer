@@ -7,15 +7,5 @@ public class Client
     public string Email { get; set; }
     public string Phone { get; set; }
     public string Address { get; set; }
-    public string Password { get; private set; }
-
-    public void SetPassword(string plainPassword)
-    {
-        Password = BCrypt.Net.BCrypt.HashPassword(plainPassword);
-    }
-
-    public bool VerifyPassword(string plainPassword)
-    {
-        return BCrypt.Net.BCrypt.Verify(plainPassword, Password);
-    }
+    public string Password { get; set; }
 }
