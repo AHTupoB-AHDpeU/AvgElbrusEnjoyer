@@ -21,9 +21,11 @@ namespace AvgElbrusEnjoyer
         {
             string name = textBoxUsername.Text.Trim();
             string email = textBoxEmail.Text.Trim();
+            string phone = textBoxPhone.Text.Trim();
+            string address = textBoxAddress.Text.Trim();
             string password = textBoxPassword.Text.Trim();
 
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(phone) || string.IsNullOrEmpty(address))
             {
                 MessageBox.Show("Заполните все поля!");
                 return;
@@ -38,15 +40,14 @@ namespace AvgElbrusEnjoyer
                 using (var writer = new StreamWriter(stream) { AutoFlush = true })
                 using (var reader = new StreamReader(stream))
                 {
-                    // Отправка команды регистрации
                     writer.WriteLine("REGISTER");
 
-                    // Отправка данных для регистрации
                     writer.WriteLine(name);
                     writer.WriteLine(email);
+                    writer.WriteLine(phone);
+                    writer.WriteLine(address);
                     writer.WriteLine(password);
 
-                    // Получение ответа от сервера
                     string response = reader.ReadLine();
                     MessageBox.Show(response);
                 }
@@ -55,6 +56,7 @@ namespace AvgElbrusEnjoyer
             {
                 MessageBox.Show($"Ошибка при подключении к серверу: {ex.Message}");
             }
+            this.Close();
         }
     }
 }

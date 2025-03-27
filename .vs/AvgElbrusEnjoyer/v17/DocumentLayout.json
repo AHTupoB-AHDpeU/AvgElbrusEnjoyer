@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,75 +50,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormLogin.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs",
-              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs",
-              "RelativeToolTip": "AvgElbrusEnjoyer\\FormLogin.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:32:57.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Program.cs",
-              "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Program.cs",
-              "RelativeToolTip": "ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAQwFcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T18:10:23.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FormRegister.cs",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormRegister.cs",
               "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormRegister.cs",
               "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormRegister.cs",
               "RelativeToolTip": "AvgElbrusEnjoyer\\FormRegister.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:36:32.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T19:36:32.095Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\Form1.cs",
-              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\Form1.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\Form1.cs",
-              "RelativeToolTip": "AvgElbrusEnjoyer\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:31:54.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormRegister.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormRegister.cs",
-              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormRegister.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormRegister.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "AvgElbrusEnjoyer\\FormRegister.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:31:40.629Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\Form1.cs",
               "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\Form1.cs",
@@ -122,19 +78,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Program.cs",
+              "RelativeToolTip": "ConsoleApp\\Program.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAADwv8oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T18:10:23.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormOrder.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormOrder.cs",
+              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormOrder.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormOrder.cs",
+              "RelativeToolTip": "AvgElbrusEnjoyer\\FormOrder.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowCIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:33:28.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\Form1.cs",
+              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\Form1.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\Form1.cs",
+              "RelativeToolTip": "AvgElbrusEnjoyer\\Form1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:31:54.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormOrder.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormOrder.cs",
+              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormOrder.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormOrder.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "AvgElbrusEnjoyer\\FormOrder.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:33:20.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FormLogin.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs",
               "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormLogin.cs",
               "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "AvgElbrusEnjoyer\\FormLogin.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:31:39.159Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-03-25T19:31:39.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "FormRegister.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormRegister.cs",
+              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormRegister.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormRegister.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "AvgElbrusEnjoyer\\FormRegister.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:31:40.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs",
+              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs",
+              "RelativeToolTip": "AvgElbrusEnjoyer\\FormLogin.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:32:57.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ConsoleApp\\AppDbContext.cs",
@@ -142,8 +169,7 @@
               "RelativeToolTip": "ConsoleApp\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:37:13.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T19:37:13.013Z"
             }
           ]
         }

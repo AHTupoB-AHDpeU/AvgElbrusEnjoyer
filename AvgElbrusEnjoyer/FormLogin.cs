@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Sockets;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace AvgElbrusEnjoyer
 {
@@ -10,6 +11,7 @@ namespace AvgElbrusEnjoyer
     {
         public static bool IsAuthenticated { get; private set; }
         public static string UserName { get; private set; }
+        public static int UserId { get; private set; }
 
         public FormLogin()
         {
@@ -39,34 +41,68 @@ namespace AvgElbrusEnjoyer
                 using (var writer = new StreamWriter(stream) { AutoFlush = true })
                 using (var reader = new StreamReader(stream))
                 {
-                    // Отправка команды для авторизации
                     writer.WriteLine("LOGIN");
 
-                    // Отправка данных для авторизации
                     writer.WriteLine(email);
                     writer.WriteLine(password);
 
-                    // Получение ответа от сервера
                     string response = reader.ReadLine();
                     MessageBox.Show(response);
 
-                    // Если авторизация успешна, то можно настроить переменные
                     if (response.Contains("Добро пожаловать"))
                     {
                         IsAuthenticated = true;
-                        UserName = email;  // Или имя пользователя, если нужно
+                        UserName = response.Replace("Добро пожаловать, ", "").Trim();
+                        UserId = GetUserId(email);
+
+                        if (Application.OpenForms["Form1"] is Form1 form1)
+                        {
+                            form1.UpdateStatusLabel();
+                        }
+                        this.DialogResult = DialogResult.OK;
+                        this.Close();
                     }
                     else
                     {
                         IsAuthenticated = false;
                         UserName = null;
+                        UserId = 0;
                     }
+                    MessageBox.Show($"UserId: {UserId}");
+                    this.Close();
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Ошибка при подключении к серверу: {ex.Message}");
             }
+        }
+
+        private int GetUserId(string email)
+        {
+            try
+            {
+                using (var client = new TcpClient("127.0.0.1", 5000))
+                using (var stream = client.GetStream())
+                using (var writer = new StreamWriter(stream) { AutoFlush = true })
+                using (var reader = new StreamReader(stream))
+                {
+                    writer.WriteLine("GET_USER_ID");
+                    writer.WriteLine(email);
+
+                    string response = reader.ReadLine();
+
+                    if (int.TryParse(response, out int userId))
+                    {
+                        return userId;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при получении UserId: {ex.Message}");
+            }
+            return 0;
         }
     }
 }

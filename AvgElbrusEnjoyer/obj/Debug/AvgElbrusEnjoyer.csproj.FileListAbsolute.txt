@@ -215,3 +215,4 @@ C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\bin\Debug\System.V
 C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbru.AED2F72E.Up2Date
 C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbrusEnjoyer.exe
 C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbrusEnjoyer.pdb
+C:\Users\antip\source\repos\AvgElbrusEnjoyer\AvgElbrusEnjoyer\obj\Debug\AvgElbrusEnjoyer.FormOrder.resources
