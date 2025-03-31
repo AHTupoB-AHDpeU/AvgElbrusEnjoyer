@@ -3,7 +3,9 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Net.Sockets;
+using System.Threading;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace AvgElbrusEnjoyer
 {
@@ -25,7 +27,7 @@ namespace AvgElbrusEnjoyer
         {
             if (FormLogin.IsAuthenticated)
             {
-                label1.Text = $"Добро пожаловать, {FormLogin.UserName}";
+                label1.Text = $"Добро пожаловать, {FormLogin.UserName}!";
                 button3.Enabled = true;
                 button1.Enabled = false;
                 button2.Enabled = false;
@@ -41,9 +43,9 @@ namespace AvgElbrusEnjoyer
 
         private void SetupListView()
         {
-            listView1.View = View.Details; // Включаем режим таблицы
-            listView1.Columns.Clear(); // Убираем старые колонки
-            listView1.Columns.Add("Каталог", listView1.Width - 5); // Одна колонка на всю ширину
+            listView1.View = View.Details;
+            listView1.Columns.Clear();
+            listView1.Columns.Add("Каталог", listView1.Width - 5);
         }
 
         private void LoadCatalogData()
@@ -59,7 +61,7 @@ namespace AvgElbrusEnjoyer
                 {
                     writer.WriteLine("GET_CATALOG");
 
-                    int count = int.Parse(reader.ReadLine()); // Получаем количество записей
+                    int count = int.Parse(reader.ReadLine());
 
                     for (int i = 0; i < count; i++)
                     {
@@ -69,14 +71,14 @@ namespace AvgElbrusEnjoyer
                         if (parts.Length == 4)
                         {
                             ListViewItem item = new ListViewItem(parts[1]); // Name
-                            item.SubItems.Add(parts[0]); // Id
-                            item.SubItems.Add(parts[2]); // Category
-                            item.SubItems.Add(parts[3]); // Price
+                            item.SubItems.Add(parts[0]);
+                            item.SubItems.Add(parts[2]);
+                            item.SubItems.Add(parts[3]);
 
                             listView1.Items.Add(item);
                         }
                     }
-                    listView1.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent); // Автоподгонка ширины
+                    listView1.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
                 }
             }
             catch (Exception ex)
@@ -127,7 +129,7 @@ namespace AvgElbrusEnjoyer
                 string selectedName = selectedItem.SubItems[0].Text;
                 string selectedCategory = selectedItem.SubItems[2].Text;
                 string selectedPrice = selectedItem.SubItems[3].Text;
-                int userId = FormLogin.UserId; // ID клиента, который авторизован
+                int userId = FormLogin.UserId; // ID
 
                 MessageBox.Show($"Вы выбрали: {selectedName}\nОписание: {selectedCategory}\nЦена: {selectedPrice} руб.");
 
@@ -136,52 +138,25 @@ namespace AvgElbrusEnjoyer
 
                 SendOrderToServer(userId, catalogId, totalPrice);
             }
-            /*if (listView1.SelectedItems.Count == 0 || !FormLogin.IsAuthenticated)
-                return;
-
-            ListViewItem selectedItem = listView1.SelectedItems[0];
-            int catalogId = int.Parse(selectedItem.SubItems[1].Text); // ID товара
-            decimal price = decimal.Parse(selectedItem.SubItems[3].Text); // Цена
-            int clientId = FormLogin.UserId; // ID клиента
-
-            // Отправка данных о заказе через TCP
-            try
-            {
-                using (var client = new TcpClient("127.0.0.1", 5000))
-                using (var stream = client.GetStream())
-                using (var writer = new StreamWriter(stream) { AutoFlush = true })
-                using (var reader = new StreamReader(stream))
-                {
-                    writer.WriteLine("CREATE_ORDER");
-                    writer.WriteLine(clientId);
-                    writer.WriteLine(catalogId);
-                    writer.WriteLine(price);
-
-                    string response = reader.ReadLine();
-                    MessageBox.Show(response);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Ошибка при добавлении в заказ: " + ex.Message);
-            }*/
         }
 
         private void SendOrderToServer(int userId, int catalogId, decimal totalPrice)
         {
             try
             {
-                // Создаем TCP-соединение с сервером
                 using (var client = new TcpClient("127.0.0.1", 5000))
                 using (var stream = client.GetStream())
                 using (var writer = new StreamWriter(stream) { AutoFlush = true })
                 using (var reader = new StreamReader(stream))
                 {
-                    // Отправляем команду и параметры
                     writer.WriteLine("CREATE_ORDER");
                     writer.WriteLine(userId);
                     writer.WriteLine(catalogId);
                     writer.WriteLine(totalPrice);
+
+                    Thread.Sleep(100);
+
+                    string response = reader.ReadLine();
                 }
             }
             catch (Exception ex)
@@ -192,7 +167,8 @@ namespace AvgElbrusEnjoyer
 
         private void button3_Click(object sender, EventArgs e)
         {
-            FormOrder orderForm = new FormOrder();
+            string userName = FormLogin.UserName;
+            FormOrder orderForm = new FormOrder(userName);
             orderForm.ShowDialog();
         }
     }

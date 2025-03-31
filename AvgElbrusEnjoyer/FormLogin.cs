@@ -47,7 +47,7 @@ namespace AvgElbrusEnjoyer
                     writer.WriteLine(password);
 
                     string response = reader.ReadLine();
-                    MessageBox.Show(response);
+                    MessageBox.Show(response + "!");
 
                     if (response.Contains("Добро пожаловать"))
                     {
@@ -68,8 +68,6 @@ namespace AvgElbrusEnjoyer
                         UserName = null;
                         UserId = 0;
                     }
-                    MessageBox.Show($"UserId: {UserId}");
-                    this.Close();
                 }
             }
             catch (Exception ex)

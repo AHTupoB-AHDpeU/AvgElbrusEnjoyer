@@ -50,13 +50,13 @@ namespace AvgElbrusEnjoyer
 
                     string response = reader.ReadLine();
                     MessageBox.Show(response);
+                    this.Close();
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Ошибка при подключении к серверу: {ex.Message}");
             }
-            this.Close();
         }
     }
 }

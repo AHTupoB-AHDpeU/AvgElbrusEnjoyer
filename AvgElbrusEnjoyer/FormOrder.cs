@@ -10,13 +10,17 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace AvgElbrusEnjoyer
 {
     public partial class FormOrder : Form
     {
-        public FormOrder()
+        private string currentUserName;
+
+        public FormOrder(string userName)
         {
+            currentUserName = userName;
             InitializeComponent();
             LoadOrderData();
         }
@@ -27,28 +31,22 @@ namespace AvgElbrusEnjoyer
 
             try
             {
-                // Создаем TCP-соединение с сервером
                 using (var client = new TcpClient("127.0.0.1", 5000))
                 using (var stream = client.GetStream())
                 using (var writer = new StreamWriter(stream) { AutoFlush = true })
                 using (var reader = new StreamReader(stream))
                 {
-                    // Запрос к серверу на получение данных заказов
                     writer.WriteLine("GET_ORDERS");
 
-                    // Читаем количество заказов
                     int count = int.Parse(reader.ReadLine());
-
-                    // Читаем данные заказов и добавляем их в ListBox
                     for (int i = 0; i < count; i++)
                     {
                         string line = reader.ReadLine();
                         string[] parts = line.Split('|');
 
-                        if (parts.Length == 4)
+                        if (parts.Length == 4 && parts[1] == currentUserName)
                         {
-                            // Формируем строку для отображения в ListBox
-                            string itemText = $"Order ID: {parts[0]}, Client ID: {parts[1]}, Catalog ID: {parts[2]}, Total Price: {parts[3]} руб.";
+                            string itemText = $"{parts[2]} {parts[3]} руб.";
                             listBox1.Items.Add(itemText);
                         }
                     }

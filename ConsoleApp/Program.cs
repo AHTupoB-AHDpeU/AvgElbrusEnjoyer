@@ -76,14 +76,11 @@ class Program
 
     static void CreateOrder(StreamWriter writer, StreamReader reader)
     {
-        // Чтение данных от клиента
-        int userId = int.Parse(reader.ReadLine()); // ID клиента
-        int catalogId = int.Parse(reader.ReadLine()); // CatalogId
-        decimal totalPrice = decimal.Parse(reader.ReadLine()); // TotalPrice
+        int userId = int.Parse(reader.ReadLine());
+        int catalogId = int.Parse(reader.ReadLine());
+        decimal totalPrice = decimal.Parse(reader.ReadLine());
 
         using var db = new AppDbContext();
-
-        // Создание нового заказа в базе данных
         var order = new Order
         {
             ClientId = userId,
@@ -94,15 +91,14 @@ class Program
         db.Orders.Add(order);
         db.SaveChanges();
 
-        // Отправка подтверждения на клиент
         writer.WriteLine("Заказ создан.");
+        writer.Flush();
     }
 
     static void GetOrders(StreamWriter writer)
     {
         using var db = new AppDbContext();
 
-        // Получаем все заказы с информацией о клиенте и каталоге
         var orders = db.Orders
             .Join(db.Clients, o => o.ClientId, c => c.Id, (o, c) => new { o, c.Name })
             .Join(db.Catalogs, oc => oc.o.CatalogId, cat => cat.Id, (oc, cat) => new
@@ -112,11 +108,10 @@ class Program
                 CatalogName = cat.Name,
                 oc.o.TotalPrice
             })
-            .ToList(); // Выполняем запрос и получаем все данные
+            .ToList();
 
-        writer.WriteLine(orders.Count); // Отправляем количество заказов
+        writer.WriteLine(orders.Count);
 
-        // Отправляем каждый заказ в формате: OrderId | ClientName | CatalogName | TotalPrice
         foreach (var order in orders)
         {
             writer.WriteLine($"{order.Id}|{order.ClientName}|{order.CatalogName}|{order.TotalPrice:F2}");
@@ -139,7 +134,6 @@ class Program
         if (db.Clients.Any(c => c.Email == email))
         {
             writer.WriteLine("Пользователь с таким email уже существует.");
-            return;
         }
 
         var newClient = new Client { Name = name, Email = email, Phone = phone, Address = address, Password = hashedPassword };
@@ -166,7 +160,7 @@ class Program
         }
 
         string userName = client.Name;
-        writer.WriteLine($"Добро пожаловать, {client.Name}!");
+        writer.WriteLine($"Добро пожаловать, {client.Name}");
     }
 
     static void SendCatalog(StreamWriter writer)
@@ -174,7 +168,7 @@ class Program
         using var db = new AppDbContext();
         var catalogs = db.Catalogs.ToList();
 
-        writer.WriteLine(catalogs.Count); // Отправляем количество записей
+        writer.WriteLine(catalogs.Count);
 
         foreach (var item in catalogs)
         {
@@ -192,7 +186,7 @@ class Program
 
         if (client != null)
         {
-            writer.WriteLine(client.Id);  // Отправляем ID клиента
+            writer.WriteLine(client.Id);
             Console.WriteLine($"Отправлен ID клиента: {client.Id}");
         }
         else
@@ -231,7 +225,7 @@ class Program
         // Выполнение SQL-запроса
         var result = db.Database.ExecuteSqlRaw(sqlQuery);
 
-        Console.WriteLine($"Запрос выполнен успешно. Затрачено {result} строк.");
+        Console.WriteLine($"Запрос выполнен успешно.");
     }
 }
 
