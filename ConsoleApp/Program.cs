@@ -13,7 +13,7 @@ class Program
     {
         var server = new TcpListener(IPAddress.Any, 5000);
         server.Start();
-        Console.WriteLine("Сервер запущен. Ожидание подключения...");
+        Console.WriteLine("Сервер запущен.");
 
         // Поток для SQL-запросов
         var sqlThread = new Thread(() => StartSqlConsole());

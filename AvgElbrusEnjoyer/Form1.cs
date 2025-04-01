@@ -15,6 +15,8 @@ namespace AvgElbrusEnjoyer
         private StreamReader reader;
         private StreamWriter writer;
 
+        public string LastMessage { get; private set; }
+
         public Form1()
         {
             InitializeComponent();
@@ -41,7 +43,7 @@ namespace AvgElbrusEnjoyer
             }
         }
 
-        private void SetupListView()
+        public void SetupListView()
         {
             listView1.View = View.Details;
             listView1.Columns.Clear();
@@ -87,13 +89,13 @@ namespace AvgElbrusEnjoyer
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             FormLogin loginForm = new FormLogin();
             loginForm.ShowDialog();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void button2_Click(object sender, EventArgs e)
         {
             FormRegister registerForm = new FormRegister();
             registerForm.ShowDialog();
@@ -121,16 +123,19 @@ namespace AvgElbrusEnjoyer
             Application.Exit();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        public void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Console.WriteLine("Не входит, т.к. нет данных в списке =0");
             if (listView1.SelectedItems.Count > 0)
             {
+                Console.WriteLine("Входит");
                 ListViewItem selectedItem = listView1.SelectedItems[0];
                 string selectedName = selectedItem.SubItems[0].Text;
                 string selectedCategory = selectedItem.SubItems[2].Text;
                 string selectedPrice = selectedItem.SubItems[3].Text;
                 int userId = FormLogin.UserId; // ID
 
+                LastMessage = ($"Вы выбрали: {selectedName}\nОписание: {selectedCategory}\nЦена: {selectedPrice} руб.");
                 MessageBox.Show($"Вы выбрали: {selectedName}\nОписание: {selectedCategory}\nЦена: {selectedPrice} руб.");
 
                 int catalogId = int.Parse(selectedItem.SubItems[1].Text);
@@ -165,7 +170,7 @@ namespace AvgElbrusEnjoyer
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        public void button3_Click(object sender, EventArgs e)
         {
             string userName = FormLogin.UserName;
             FormOrder orderForm = new FormOrder(userName);

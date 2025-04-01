@@ -17,12 +17,17 @@ namespace AvgElbrusEnjoyer
     public partial class FormOrder : Form
     {
         private string currentUserName;
+        public string ReceivedUserName { get; set; }
+        public bool WasShown { get; set; } = false;
 
         public FormOrder(string userName)
         {
             currentUserName = userName;
             InitializeComponent();
             LoadOrderData();
+
+            ReceivedUserName = userName;
+            WasShown = true;
         }
 
         private void LoadOrderData()

@@ -157,12 +157,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBoxUsername;
-        private System.Windows.Forms.TextBox textBoxEmail;
-        private System.Windows.Forms.TextBox textBoxPassword;
-        private System.Windows.Forms.Button regist;
-        private System.Windows.Forms.TextBox textBoxPhone;
-        private System.Windows.Forms.TextBox textBoxAddress;
+        public System.Windows.Forms.TextBox textBoxUsername;
+        public System.Windows.Forms.TextBox textBoxEmail;
+        public System.Windows.Forms.TextBox textBoxPassword;
+        public System.Windows.Forms.Button regist;
+        public System.Windows.Forms.TextBox textBoxPhone;
+        public System.Windows.Forms.TextBox textBoxAddress;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

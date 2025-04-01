@@ -7,12 +7,16 @@ namespace AvgElbrusEnjoyer
 {
     public partial class FormRegister : Form
     {
+        public bool WasShown { get; set; } = false;
+        public bool WasMessageBoxShownNo { get; private set; } = false;
+
         public FormRegister()
         {
             InitializeComponent();
+            WasShown = true;
         }
 
-        private void regist_Click(object sender, EventArgs e)
+        public void regist_Click(object sender, EventArgs e)
         {
             RegisterUser();
         }
@@ -27,6 +31,7 @@ namespace AvgElbrusEnjoyer
 
             if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(phone) || string.IsNullOrEmpty(address))
             {
+                WasMessageBoxShownNo = true;
                 MessageBox.Show("Заполните все поля!");
                 return;
             }

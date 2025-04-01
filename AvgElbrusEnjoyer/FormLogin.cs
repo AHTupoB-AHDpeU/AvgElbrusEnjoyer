@@ -9,13 +9,15 @@ namespace AvgElbrusEnjoyer
 {
     public partial class FormLogin : Form
     {
-        public static bool IsAuthenticated { get; private set; }
-        public static string UserName { get; private set; }
-        public static int UserId { get; private set; }
+        public static bool IsAuthenticated { get; set; }
+        public static string UserName { get; set; }
+        public static int UserId { get; set; }
+        public bool WasShown { get; set; } = false;
 
         public FormLogin()
         {
             InitializeComponent();
+            WasShown = true;
         }
 
         private void textBoxPassword1_Click(object sender, EventArgs e)
@@ -23,7 +25,7 @@ namespace AvgElbrusEnjoyer
             LoginUser();
         }
 
-        private void LoginUser()
+        public void LoginUser()
         {
             string email = textBoxEmail.Text.Trim();
             string password = textBoxPassword1.Text.Trim();
@@ -76,7 +78,7 @@ namespace AvgElbrusEnjoyer
             }
         }
 
-        private int GetUserId(string email)
+        public int GetUserId(string email)
         {
             try
             {
