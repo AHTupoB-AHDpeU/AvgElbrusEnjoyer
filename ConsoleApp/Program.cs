@@ -7,9 +7,9 @@ using System.Reflection.PortableExecutable;
 using System.Threading;
 using Microsoft.EntityFrameworkCore;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         var server = new TcpListener(IPAddress.Any, 5000);
         server.Start();
@@ -52,7 +52,8 @@ class Program
                 case "LOGOUT":
                     writer.WriteLine("Выход из системы выполнен.");
                     writer.Flush();
-                    Environment.Exit(0);
+                    client.Close();
+                    Environment.Exit(0); // Закрывает всё, и тесты до завершения //
                     break;
                 case "GET_CATALOG":
                     SendCatalog(writer);
@@ -89,7 +90,7 @@ class Program
         };
 
         db.Orders.Add(order);
-        db.SaveChanges();
+        db.SaveChanges(); // ???
 
         writer.WriteLine("Заказ создан.");
         writer.Flush();
@@ -117,7 +118,7 @@ class Program
             writer.WriteLine($"{order.Id}|{order.ClientName}|{order.CatalogName}|{order.TotalPrice:F2}");
         }
 
-        Console.WriteLine("Данные заказов отправлены клиенту.");
+        Console.WriteLine("Данные заказов отправлены.");
     }
 
     static void Register(StreamWriter writer, StreamReader reader)
@@ -134,6 +135,7 @@ class Program
         if (db.Clients.Any(c => c.Email == email))
         {
             writer.WriteLine("Пользователь с таким email уже существует.");
+            return;
         }
 
         var newClient = new Client { Name = name, Email = email, Phone = phone, Address = address, Password = hashedPassword };
@@ -174,7 +176,7 @@ class Program
         {
             writer.WriteLine($"{item.Id}|{item.Name}|{item.Category}|{item.Price}");
         }
-        Console.WriteLine("Данные каталога отправлены клиенту.");
+        Console.WriteLine("Данные каталога отправлены.");
     }
 
     static void SendUserId(StreamWriter writer, StreamReader reader)
@@ -195,7 +197,7 @@ class Program
         }
     }
 
-    static void StartSqlConsole()
+    public static void StartSqlConsole()
     {
         while (true)
         {
@@ -218,7 +220,7 @@ class Program
         }
     }
 
-    static void ExecuteSqlQuery(string sqlQuery)
+    public static void ExecuteSqlQuery(string sqlQuery)
     {
         using var db = new AppDbContext();
 

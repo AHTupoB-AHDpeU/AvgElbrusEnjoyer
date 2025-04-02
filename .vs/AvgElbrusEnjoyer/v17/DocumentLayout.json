@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\avgelbrusenjoyer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B53F6980-911A-41B3-92C8-8C4C3525F36E}|AvgElbrusEnjoyer.Tests\\AvgElbrusEnjoyer.Tests.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\avgelbrusenjoyer.tests\\testone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B53F6980-911A-41B3-92C8-8C4C3525F36E}|AvgElbrusEnjoyer.Tests\\AvgElbrusEnjoyer.Tests.csproj|solutionrelative:avgelbrusenjoyer.tests\\testone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B53F6980-911A-41B3-92C8-8C4C3525F36E}|AvgElbrusEnjoyer.Tests\\AvgElbrusEnjoyer.Tests.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\avgelbrusenjoyer.tests\\testthree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B53F6980-911A-41B3-92C8-8C4C3525F36E}|AvgElbrusEnjoyer.Tests\\AvgElbrusEnjoyer.Tests.csproj|solutionrelative:avgelbrusenjoyer.tests\\testthree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B53F6980-911A-41B3-92C8-8C4C3525F36E}|AvgElbrusEnjoyer.Tests\\AvgElbrusEnjoyer.Tests.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\avgelbrusenjoyer.tests\\testtwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B53F6980-911A-41B3-92C8-8C4C3525F36E}|AvgElbrusEnjoyer.Tests\\AvgElbrusEnjoyer.Tests.csproj|solutionrelative:avgelbrusenjoyer.tests\\testtwo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72EF3DA0-E29E-459D-8FBE-B99465348274}|AvgElbrusEnjoyer\\AvgElbrusEnjoyer.csproj|solutionrelative:avgelbrusenjoyer\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31C75DE7-C671-4F1F-9804-95C0120D2772}|ServerTests\\ConsoleApp.Tests.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\servertests\\servertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31C75DE7-C671-4F1F-9804-95C0120D2772}|ServerTests\\ConsoleApp.Tests.csproj|solutionrelative:servertests\\servertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|c:\\users\\antip\\source\\repos\\avgelbrusenjoyer\\consoleapp\\models\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FACDB-BA45-4BBF-AB23-780BE1245580}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\models\\component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,32 +42,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TestThree.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer.Tests\\TestThree.cs",
-              "RelativeDocumentMoniker": "AvgElbrusEnjoyer.Tests\\TestThree.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer.Tests\\TestThree.cs",
-              "RelativeToolTip": "AvgElbrusEnjoyer.Tests\\TestThree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs",
+              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs",
+              "RelativeToolTip": "AvgElbrusEnjoyer\\FormLogin.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwCYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T14:39:34.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestOne.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer.Tests\\TestOne.cs",
-              "RelativeDocumentMoniker": "AvgElbrusEnjoyer.Tests\\TestOne.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer.Tests\\TestOne.cs",
-              "RelativeToolTip": "AvgElbrusEnjoyer.Tests\\TestOne.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T12:31:35.66Z",
+              "WhenOpened": "2025-04-02T13:47:42.299Z",
               "EditorCaption": ""
             },
             {
@@ -78,75 +65,83 @@
               "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\Form1.cs",
               "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\Form1.cs",
               "RelativeToolTip": "AvgElbrusEnjoyer\\Form1.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA2wH8AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAIwIAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:31:54.521Z",
+              "WhenOpened": "2025-04-02T13:47:09.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FormRegister.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormRegister.cs",
-              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormRegister.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormRegister.cs",
-              "RelativeToolTip": "AvgElbrusEnjoyer\\FormRegister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Title": "Finance.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Finance.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Models\\Finance.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Finance.cs",
+              "RelativeToolTip": "ConsoleApp\\Models\\Finance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:36:32.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormOrder.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormOrder.cs",
-              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormOrder.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormOrder.cs",
-              "RelativeToolTip": "AvgElbrusEnjoyer\\FormOrder.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwBMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T10:33:28.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestTwo.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer.Tests\\TestTwo.cs",
-              "RelativeDocumentMoniker": "AvgElbrusEnjoyer.Tests\\TestTwo.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer.Tests\\TestTwo.cs",
-              "RelativeToolTip": "AvgElbrusEnjoyer.Tests\\TestTwo.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T14:35:33.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T11:32:27.51Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Component.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Component.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Models\\Component.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Component.cs",
+              "RelativeToolTip": "ConsoleApp\\Models\\Component.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:32:25.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Client.cs",
+              "RelativeToolTip": "ConsoleApp\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:32:23.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Catalog.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Catalog.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Models\\Catalog.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Models\\Catalog.cs",
+              "RelativeToolTip": "ConsoleApp\\Models\\Catalog.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:32:21.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
               "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ConsoleApp\\Program.cs",
               "RelativeToolTip": "ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAApwFsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAlwFYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T18:10:23.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormLogin.cs",
-              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs",
-              "RelativeDocumentMoniker": "AvgElbrusEnjoyer\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\AvgElbrusEnjoyer\\FormLogin.cs",
-              "RelativeToolTip": "AvgElbrusEnjoyer\\FormLogin.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAwFAAAAATAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ServerTests.cs",
+              "DocumentMoniker": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ServerTests\\ServerTests.cs",
+              "RelativeDocumentMoniker": "ServerTests\\ServerTests.cs",
+              "ToolTip": "C:\\Users\\antip\\source\\repos\\AvgElbrusEnjoyer\\ServerTests\\ServerTests.cs",
+              "RelativeToolTip": "ServerTests\\ServerTests.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAcwMMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:32:57.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T11:57:59.418Z"
             }
           ]
         }
