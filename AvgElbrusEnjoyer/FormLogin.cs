@@ -28,7 +28,7 @@ namespace AvgElbrusEnjoyer
         public void LoginUser()
         {
             string email = textBoxEmail.Text.Trim();
-            string password = textBoxPassword1.Text.Trim();
+            string password = textBoxPassword.Text.Trim();
 
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
